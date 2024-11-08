@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+This is a CSS code snippet that
+ sets global styling rules, applying
+  box-sizing to all elements and defining 100%
+   height and width for the HTML, body, #root, and
+    .app containers. Here’s a breakdown of each part: */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  @apply text-sm;
+  @apply bg-white;
+  @apply dark:bg-black;
+}

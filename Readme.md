@@ -35,3 +35,8 @@
 - It installs **TypeScript**, and the necessary **type definitions** for `Node.js`, `uuid`, and `numeral` to ensure your TypeScript code works correctly with those libraries and can use them with proper type-checking and IntelliSense support.
 
 --------Summary----- 5.
+
+6. Made changes in tailwind config js adding custom color
+7. tsrafce ,To get the component bydefault in vscode ,Whatever u put in layout.js is going to be there for every page so we build dashboard wrapper cointaing sidebar and navbar and imported it into layout.tsx
+8. create @/app/(components)/Navbar (so when we put brackets it mean we don't want it to be in our directory) also @ starts from the src directory
+9. creating sidebar and navbar
